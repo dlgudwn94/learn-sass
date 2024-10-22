@@ -1,0 +1,11 @@
+// @use "./techit/utils" as *;
+// @use "./techit/likelion" as lion;
+
+@use "./techit";
+
+.wrapper {
+  border: 1px solid red;
+  @include techit.utils-size(200px, 150px);
+  margin: techit.$lion-spacing-1;
+  padding: techit.$utils-spacing-2;
+}
